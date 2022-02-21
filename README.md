@@ -12,7 +12,7 @@ Some of the key challenges I faced while building the landing page:
     - A minor challenge, but I think it's important to be able to pick and choose the right type of font-family and color to make the website look aesthetically pleasing. Google Fonts was my best friend and helped me test out different fonts before I landed on picking three for the landing page. 
 
 # Live URL
-[Here is a live preview of the landing page] () 
+[Here is a live preview of the landing page](https://qymmore.github.io/Cafe-landing-page/)  
 
 # Comments & Suggestions
 I'd love to receive any feedback you might have on the landing page. I'm open to suggestions for improving the written code. As of right now, the code is very crude and I'm looking to clean it up and enhance the features of the page as I learn more about web development. 
