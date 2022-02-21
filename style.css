@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400&family=Parisienne&family=Playfair+Display&display=swap");
+
+body, html {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+img {
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.img1, .img2, .img3 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url('./images/img1.jpg');
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url('./images/img2.jpg');
+  min-height: 400px;
+}
+
+.img3 {
+  background-image: url('./images/img3.jpg');
+  min-height: 400px;
+}
+
+.header {
+  display: flex;
+  padding: 10px 30px;
+  margin-left: -10px;
+  gap: 20px;
+  background-color: antiquewhite;
+  opacity: 0.8;
+}
+
+.bakery-name {
+    display: flex;
+    align-self: center;
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+}
+
+li {
+    font-family: 'Lato';
+    font-size: large;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-one {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  opacity: 0.9;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #F3F0E9;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #F3F0E9;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .section.section-one {
+    padding: 50px 150px;
+  }
+
+  #our-story {
+    display: block;
+    flex-wrap: wrap;
+    width: max-content;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .croissant-image {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #gallery-text {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 120px;
+    letter-spacing: 8px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    height: 150px;
+  }
+
+  .section.section-two {
+    padding: 100px 150px;
+  }
+
+  .gallery-images {
+    display: flex;
+    gap: 10px;
+  }
+
+  #quotation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:black;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    height: 250px;
+    line-height: 50px;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  
+#subscribe input {
+    background: #fff;
+    color: #060c22;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 9px 80px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+  
+  #subscribe button {
+    border: 0;
+    padding: 9px 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  
+  #subscribe button:hover {
+    background: #e0072f;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+  }
+
+  
