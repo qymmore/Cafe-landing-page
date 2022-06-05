@@ -1,7 +1,26 @@
-# Project
+# Table of contents
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [My process](#my-process)
+    - [Built with:](#built-with)
+    - [Challenges & Solutions](#challenges--solutions)
+- [Live URL](#live-url)
+- [Comments & Suggestions](#comments--suggestions)
+
+# Overview
 The café landing page is my take on creating a simple landing page consisting of four sections (including a footer) using only HTML5 and CSS. The purpose of this project was to test out my skills in building a simple webpage for the first time and using CSS flexbox to arrange all of the elements present on the page.
 
-# Challenges & Solutions
+# Screenshot
+![](./gallery/cruller-cafe.gif)
+
+# My process
+
+## Built with:
+- Semantic HTML
+- CSS custom properties
+- CSS flexbox
+
+## Challenges & Solutions
 Some of the key challenges I faced while building the landing page:
 
 - **Creating a parallax background scrolling effect**
